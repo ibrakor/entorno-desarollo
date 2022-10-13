@@ -12,7 +12,7 @@ public class PlacaBase {
     private String chipset;
 
     /**
-     * Metodos, funciones...
+     * Metodos, funcionees...
      */
     public Integer getId() {
         return id;
