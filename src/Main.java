@@ -1,5 +1,6 @@
 import com.ibrakor.PcComponentes.PlacaBase;
 import com.ibrakor.PcComponentes.Procesador;
+import com.ibrakor.PcComponentes.TarjetaGrafica;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,8 +24,12 @@ public class Main {
         MSI.setId(3);
         MSI.setMarca("MSI Mortar");
         MSI.setChipset("AM4");
+        MSI.setPrecio("150 €");
         System.out.println(MSI.getMarca());
         System.out.println(MSI.getChipset());
+        System.out.println(MSI.getPrecio());
+
+        TarjetaGrafica
 
     }
 }
