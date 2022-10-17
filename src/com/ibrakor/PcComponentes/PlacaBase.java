@@ -10,6 +10,7 @@ public class PlacaBase {
     private Integer id;
     private String marca;
     private String chipset;
+    private String precio;
 
     /**
      * Metodos, funcionees...
@@ -26,6 +27,10 @@ public class PlacaBase {
         return chipset;
     }
 
+    public String getPrecio() {
+        return precio;
+    }
+
     public void setId(Integer id) {
         this.id = id;
     }
@@ -37,7 +42,12 @@ public class PlacaBase {
     public void setChipset(String chipset) {
         this.chipset = chipset;
     }
+
+    public void setPrecio(String precio) {
+        this.precio = precio;
+    }
 }
+
 
 
 
