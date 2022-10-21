@@ -98,5 +98,76 @@ public class Main {
         System.out.println(barracuda.getModelo());
         System.out.println(barracuda.getPrecio());
         System.out.println(barracuda.getCapacidad());
+        /**
+         * Salida tarjeta de sonido
+         */
+        TarjetaSonido sound = new TarjetaSonido();
+        sound.setId(9);
+        sound.setNombre("Sound BlasterX");
+        sound.setPrecio("140 €");
+        sound.setModelo("AE-5");
+        System.out.println(sound.getNombre());
+        System.out.println(sound.getPrecio());
+        System.out.println(sound.getModelo());
+        /**
+         * Salida DVD
+         */
+        DVD dvdsony = new DVD();
+        dvdsony.setId(10);
+        dvdsony.setNombre("DVD SONY");
+        dvdsony.setPrecio("40 €");
+        dvdsony.setModelo("DVP-SR370B");
+        System.out.println(dvdsony.getNombre());
+        System.out.println(dvdsony.getPrecio());
+        System.out.println(dvdsony.getModelo());
+        /**
+         * Salida monitor
+         */
+        Monitor viewSonic = new Monitor();
+        viewSonic.setId(11);
+        viewSonic.setNombre("ViewSonic");
+        viewSonic.setModelo("VX24");
+        viewSonic.setPulgadas("24´");
+        viewSonic.setPrecio("100 €");
+        System.out.println(viewSonic.getNombre());
+        System.out.println(viewSonic.getPrecio());
+        System.out.println(viewSonic.getModelo());
+        System.out.println(viewSonic.getPulgadas());
+        /**
+         * Salida teclado
+         */
+        Teclado logitech = new Teclado();
+        logitech.setId(12);
+        logitech.setNombre("Logitech");
+        logitech.setModelo("G PRO");
+        logitech.setColorswitch("GX Blue");
+        logitech.setPrecio("110 €");
+        System.out.println(logitech.getNombre());
+        System.out.println(logitech.getPrecio());
+        System.out.println(logitech.getModelo());
+        System.out.println(logitech.getColorswitch());
+        /**
+         * Salida Ratón
+         */
+        Raton razer = new Raton();
+        razer.setId(13);
+        razer.setNombre("Razer");
+        razer.setPrecio("50 €");
+        razer.setModelo("Basilisk V3");
+        System.out.println(razer.getNombre());
+        System.out.println(razer.getPrecio());
+        System.out.println(razer.getModelo());
+        /**
+         * Salida altavoz
+         */
+        Altavoces jbl = new Altavoces();
+        jbl.setId(14);
+        jbl.setNombre("JBL");
+        jbl.setPrecio("40 €");
+        jbl.setModelo("Go 3");
+        System.out.println(jbl.getNombre());
+        System.out.println(jbl.getPrecio());
+        System.out.println(jbl.getModelo());
+
     }
 }
