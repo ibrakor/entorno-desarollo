@@ -43,7 +43,7 @@ public class Main {
          */
         RAM corsairam = new RAM();
         corsairam.setId(4);
-        corsairam.setNombre("Corsair Vengeance");
+        corsairam.setNombre("Corsair Vengeance 16GB");
         corsairam.setPrecio("150 €");
         corsairam.setReloj("3200 Mhz");
         System.out.println(corsairam.getNombre());
